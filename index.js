@@ -19,7 +19,6 @@ const {
     uid: userId,
     type: 1, // last week
   }).catch(error => console.error(`Unable to get user record \n${error}`));
-  console.log(JSON.stringify(record));
   /**
    * Second, get week play data and parse into song/plays diagram
    */
@@ -65,7 +64,7 @@ const {
       gist_id: gistId,
       files: {
         [filename]: {
-          filename: `🎵 My last week in music`,
+          filename: `🎵 My Music history in last week`,
           content: lines.join('\n'),
         },
       },
