@@ -70,6 +70,7 @@ const {
         },
       },
     });
+    console.log(lines.join('\n'))
   } catch (error) {
     console.error(`Unable to update gist\n${error}`);
   }
