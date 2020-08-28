@@ -19,7 +19,7 @@ const {
     uid: userId,
     type: 1, // last week
   }).catch(error => console.error(`Unable to get user record \n${error}`));
-
+  console.log(record);
   /**
    * Second, get week play data and parse into song/plays diagram
    */
