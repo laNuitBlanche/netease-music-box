@@ -17,7 +17,7 @@ const {
   const record = await user_record({
     cookie: `MUSIC_U=${userToken}`,
     uid: userId,
-    type: 1, // last week
+    type: 0, // all data
   }).catch(error => console.error(`Unable to get user record \n${error}`));
   /**
    * Second, get week play data and parse into song/plays diagram
