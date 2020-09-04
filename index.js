@@ -64,7 +64,7 @@ const {
       gist_id: gistId,
       files: {
         [filename]: {
-          filename: `🎵 My Music history in last week`,
+          filename: `🎵 My Music history`,
           content: lines.join('\n'),
         },
       },
